@@ -6,12 +6,12 @@
   
   :root {
     --dark: #1f1f1f;
-    --light: #fff9f2;
+    --light: #7e705f;
     --accent: #901308c3;
     --accent-hover: #94492d;
     --text: #333333;
     --white: #ffffff;
-    --soft: #f0e7de;
+    --soft: #bcbab7;
   }
 
   body {
@@ -161,7 +161,7 @@
     padding: 20px;
     border-radius: 10px;
     flex: 1 1 250px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 10px rgba(179, 165, 165, 0.08);
   }
   
   .info-card h3,
@@ -303,4 +303,12 @@
   
   .team-image{
     object-fit: contain;
+  }
+  
+  .menu-card {
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1 1 50px;
+    box-shadow: 0 4px 10px rgba(179, 165, 165, 0.08);
   }
