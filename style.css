@@ -312,3 +312,17 @@
     flex: 1 1 50px;
     box-shadow: 0 4px 10px rgba(179, 165, 165, 0.08);
   }
+
+  .container1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #755321;
+  padding: 10px;
+}
+.container1 div {
+  background-color: #e8e8e8;
+  border: 5px solid #534d00;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
